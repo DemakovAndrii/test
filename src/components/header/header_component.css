@@ -1,0 +1,111 @@
+.header {
+	display: flex;
+	align-items: center;
+
+	width: 1600px;
+	height: 113px;
+
+	background-color: #5cacee;
+}
+
+.logo {
+	margin: 0 147.79px 0 77px;
+}
+
+.search-bar {
+	display: flex;
+	align-items: center;
+
+	width: 668px;
+	height: 53px;
+
+	background: #E9F1FA;
+	border-radius: 26.5px;
+}
+
+.search-logo {
+	padding: 0 13px 0 18px;
+}
+
+.search-input {
+	width: 580px;
+
+	font-size: 16px;
+	line-height: 26px;
+
+	color: #18333E;
+	background-color: transparent;
+	border: none;
+}
+
+.switch {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 53px;
+	height: 53px;
+	margin: 0 74px 0 62px;
+
+	background: #18333E;
+	border-radius: 50%;
+}
+
+.location::before {
+	content: '';
+	width: 1px;
+	height: 41px;
+
+	background-color: #B4BCC4;
+}
+
+.location {
+	display: flex;
+	align-items: center;
+}
+
+.location-logo {
+	margin: 0 14px 0 37px;
+}
+
+.location-city {
+	margin-right: 89px;
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+
+	color: #18333E;
+}
+
+.notification {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+
+	width: 53px;
+	height: 53px;
+	margin-right: 33px;
+
+	border: 1px solid #B4BCC4;
+	border-radius: 50%;
+}
+
+
+.notification-logo.active {
+	position: absolute;
+	top: -10px;
+	right: -5px;
+
+	width: 10px;
+	height: 10px;
+
+	background-color: #FF7F5C;
+	border-radius: 50%;
+}
+
+.person {
+	width: 53px;
+	height: 53px;
+}
