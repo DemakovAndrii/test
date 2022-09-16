@@ -12,17 +12,32 @@
 	align-items: center;
 
 	margin-bottom: 26px;
-	margin-left: 15px;
+	padding-left: 15px;
 
 	height: 63px;
+	width: 200px;
+
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 26px;
+	cursor: pointer;
 	color: #18333E;
 }
 
-.element:nth-child(7) {
+.element.active {
+	width: 200px;
+
+	background-color: #F9D44A;
+	border-radius: 0px 31.5px 31.5px 0px;
+}
+
+.element:nth-child(8) {
 	margin-bottom: 172px;
 }
 
-.element-logo {}
+.element-logo {
+	display: flex;
+	padding-top: 5px;
+	margin-right: 15px;
+	margin-left: 35px;
+}

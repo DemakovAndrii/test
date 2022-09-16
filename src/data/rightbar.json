@@ -1,0 +1,26 @@
+[
+	{
+		"img": "/assets/rightbar/1.png",
+		"name": "Brazil Forest",
+		"loc": "Brazil",
+		"coast": "$1540"
+	},
+	{
+		"img": "/assets/rightbar/2.png",
+		"name": "Nature Lake",
+		"loc": "Afghanistan",
+		"coast": "$1200"
+	},
+	{
+		"img": "/assets/rightbar/3.png",
+		"name": "Camel Ride",
+		"loc": "Srilanka",
+		"coast": "$900"
+	},
+	{
+		"img": "/assets/rightbar/4.png",
+		"name": "Mid Forest",
+		"loc": "Brazil",
+		"coast": "$1250"
+	}
+]

@@ -5,7 +5,7 @@
 	width: 1600px;
 	height: 113px;
 
-	background-color: #5cacee;
+	background-color: #d6e7f5;
 }
 
 .logo {
@@ -36,6 +36,10 @@
 	color: #18333E;
 	background-color: transparent;
 	border: none;
+}
+
+.search-input:focus {
+	outline: none;
 }
 
 .switch {
@@ -92,10 +96,15 @@
 	border-radius: 50%;
 }
 
+.notification-logo {
+	background: transparent;
+}
 
 .notification-logo.active {
+	content: '';
 	position: absolute;
-	top: -10px;
+
+	top: -5px;
 	right: -5px;
 
 	width: 10px;
@@ -104,6 +113,7 @@
 	background-color: #FF7F5C;
 	border-radius: 50%;
 }
+
 
 .person {
 	width: 53px;

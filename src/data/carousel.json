@@ -1,0 +1,44 @@
+[
+	{
+		"img": "/assets/main/1.png",
+		"text": "Moonlight Night",
+		"loc": "Canada",
+		"rate": 4.7,
+		"imghover": "https://images.unsplash.com/photo-1662315317572-f797a4325b57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+	},
+	{
+		"img": "/assets/main/2.png",
+		"text": "Sahara Desert",
+		"loc": "Africa",
+		"rate": 4.9,
+		"imghover": "https://images.unsplash.com/photo-1636220409261-794e0464ca2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+	},
+	{
+		"img": "/assets/main/3.png",
+		"text": "Night Camping",
+		"loc": "New York",
+		"rate": 5,
+		"imghover": "https://images.unsplash.com/photo-1640741915965-678ac693d54a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+	},
+	{
+		"img": "/assets/main/1.png",
+		"text": "Moonlight Night 1",
+		"loc": "Canada",
+		"rate": 4,
+		"imghover": "https://images.unsplash.com/photo-1641068468989-39741537af07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+	},
+	{
+		"img": "/assets/main/2.png",
+		"text": "Sahara Desert 2",
+		"loc": "Africa",
+		"rate": 3,
+		"imghover": "https://images.unsplash.com/photo-1638384870646-89f7aef624d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+	},
+	{
+		"img": "/assets/main/3.png",
+		"text": "Night Camping 2",
+		"loc": "New York",
+		"rate": 8,
+		"imghover": "https://images.unsplash.com/photo-1638384870646-89f7aef624d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+	}
+]

@@ -1,0 +1,65 @@
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pics {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+
+}
+
+.pics-img {
+	height: 118px;
+	width: 118px;
+
+	border-radius: 20px;
+}
+
+.pics-name {
+	display: none;
+
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 29px;
+
+	color: #FFFFFF;
+}
+
+.pics-rate {
+	display: none;
+
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 22px;
+
+	color: #FFFFFF;
+}
+
+/* ============================== */
+
+.pics.active {
+	width: 409px;
+	height: 78px;
+
+	padding: 20px 24px;
+
+	background-color: #18333E;
+	border-radius: 20px;
+}
+
+.pics-img.active {
+	height: 78px;
+	width: 78px;
+
+	border-radius: 15px;
+}
+
+.pics-name.active {
+	display: block;
+}
+
+.pics-rate.active {
+	display: block;
+}

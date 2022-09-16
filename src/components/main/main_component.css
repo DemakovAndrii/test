@@ -1,0 +1,63 @@
+.main {
+	width: 783px;
+	height: 959px;
+
+	padding: 33px 41px 33px 72px;
+
+	background-color: #d6e7f5;
+}
+
+.title {
+	margin: 0;
+
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 48px;
+
+	color: #18333E;
+}
+
+.sort {
+	display: flex;
+	gap: 3rem;
+
+	margin: 18px 0 38px;
+
+	line-height: 26px;
+	color: #18333E;
+}
+
+.sort p {
+	margin: 0;
+}
+
+.hueta {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 35px;
+
+	color: #18333E;
+}
+
+span {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+
+	color: #18333E;
+
+	opacity: 0.8;
+}
+
+.imaga {
+	width: 241px;
+	height: 322px;
+	border-radius: 50px;
+	object-fit: cover;
+}

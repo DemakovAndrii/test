@@ -1,0 +1,145 @@
+.rightBar {
+	width: 413px;
+	height: 959px;
+
+	padding: 33px;
+
+	background-color: #d6e7f5;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+
+	margin-bottom: 44px;
+
+	cursor: pointer;
+}
+
+.img {
+	border-radius: 20px;
+
+	width: 126px;
+	height: 92px;
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	flex: 1 1 auto;
+	justify-content: space-between;
+
+	margin-left: 20px;
+}
+
+.name {
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 35px;
+
+	color: #18333E
+}
+
+.loc {
+	display: flex;
+	gap: 7px;
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+
+	color: #18333E;
+	opacity: 0.7
+}
+
+.booking {
+	display: none;
+	align-items: center;
+}
+
+.coast {
+	margin-right: 144px;
+
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 64px;
+
+	color: #18333E
+}
+
+.button {
+	width: 175px;
+	height: 61px;
+
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 29px;
+
+	color: #FFFFFF;
+	background: #18333E;
+	border-radius: 30.5px;
+}
+
+/* ======================================= */
+
+.card.active {
+	display: flex;
+	flex-direction: column;
+}
+
+.img.active {
+	margin-bottom: 1.5rem;
+
+	width: 395px;
+	height: 290px;
+}
+
+.info.active {
+	width: 395px;
+	margin-left: 0px;
+}
+
+.name.active {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 48px;
+}
+
+.loc.active {}
+
+.booking.active {
+	display: flex;
+
+	margin-top: 20px;
+}
+
+.box {
+	content: '';
+	background-color: #E9F1FA;
+
+	width: 53px;
+	height: 53px;
+
+	border-radius: 50%;
+
+	position: relative;
+}
+
+.box-logo {
+	content: '';
+	background-color: #222e3b;
+
+	width: 24px;
+	height: 24px;
+
+	border-radius: 50%;
+
+	position: absolute;
+	left: 50%;
+	bottom: 50%;
+	transform: translate(-50%, 50%);
+}
+
+.box-logo.active {
+	background-color: #e23636;
+}
