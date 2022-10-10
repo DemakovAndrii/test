@@ -1,0 +1,287 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  width: 100%;
+  height: 115px;
+  background-color: #d6e7f5;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  width: 100%;
+  padding: 0 3rem;
+}
+.logo {
+  margin-right: 5rem;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+
+  flex: 2;
+  height: 55px;
+  border-radius: 26px;
+
+  background: #e9f1fa;
+  position: relative;
+}
+.search-bar.active {
+  z-index: 100;
+}
+.search-logo {
+}
+
+.search-input {
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #18333e;
+  background-color: transparent;
+  border: none;
+}
+.search-bar form {
+  padding-left: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+}
+.search-input:focus {
+  outline: none;
+}
+
+.user-settings {
+  display: flex;
+  gap: 10%;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 53px;
+  max-width: 53px;
+  height: 53px;
+
+  background: #18333e;
+  border-radius: 50%;
+  margin-right: auto;
+}
+
+.user::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+
+  background-color: #b4bcc4;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.user-name {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 26px;
+
+  color: #18333e;
+}
+
+.setting-list {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+
+  height: fit-content;
+
+  padding: 0.5rem 2rem;
+
+  list-style: none;
+  font-size: 1.5rem;
+  background: #ffffff;
+  border-radius: 15px;
+}
+.setting-list li {
+  min-width: fit-content;
+  white-space: nowrap;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  width: 53px;
+  height: 53px;
+
+  border: 1px solid #b4bcc4;
+  border-radius: 50%;
+}
+
+.notification-logo {
+  background: transparent;
+}
+
+.notification-logo.active {
+  content: "";
+  position: absolute;
+
+  top: -5px;
+  right: -5px;
+
+  width: 10px;
+  height: 10px;
+
+  background-color: #ff7f5c;
+  border-radius: 50%;
+}
+
+.person {
+  width: 53px;
+  height: 53px;
+}
+
+.blur {
+  position: absolute;
+
+  inset: 0;
+  min-height: 120vh;
+  min-width: 100vw;
+
+  z-index: -1;
+}
+.blur.active {
+  background: rgba(0, 0, 0, 50%);
+  z-index: 90;
+}
+.imageBackground {
+  position: absolute;
+  width: 80vw;
+  height: 80vh;
+  z-index: 1000;
+
+  inset: 0;
+  margin: auto;
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.image-preview {
+  position: absolute;
+  object-fit: cover;
+  width: 80vw;
+  height: 80vh;
+  z-index: 1000;
+  border-radius: 20px;
+
+  cursor: pointer;
+}
+.arrow {
+  position: absolute;
+  top: 45%;
+
+  z-index: 1000;
+
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+.left {
+  left: 3%;
+  color: #195fb6;
+}
+.right {
+  right: 3%;
+}
+.button {
+  width: 175px;
+  height: 61px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+
+  color: #ffffff;
+  background: #18333e;
+  border-radius: 30.5px;
+  transition: 0.3s;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background: #274e59;
+}
+.user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  position: absolute;
+
+  background: white;
+  width: 40%;
+  max-width: 700px;
+  min-width: 580px;
+  height: 40%;
+  min-height: 400px;
+  max-height: 400px;
+  inset: 40% 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+}
+.user-form input {
+  height: 40px;
+  width: 100%;
+  max-width: 80%;
+
+  font-size: 20px;
+  border-radius: 30px;
+  border: 2px solid #18333e;
+  padding-left: 10px;
+}
+.form-close {
+  position: absolute;
+  inset: 10% 90%;
+  cursor: pointer;
+}
+
+.form-close::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 2px;
+  background: #18333e;
+  border-radius: 50px;
+  transform: rotate(45deg);
+}
+.form-close::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 2px;
+  background: #18333e;
+  border-radius: 50px;
+  transform: rotate(-45deg);
+}

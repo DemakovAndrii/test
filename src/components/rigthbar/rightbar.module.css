@@ -1,0 +1,156 @@
+.rightBar {
+  width: 413px;
+  height: 959px;
+
+  padding: 33px;
+
+  background-color: #d6e7f5;
+  transition: 0.3s;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 44px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.img {
+  border-radius: 20px;
+
+  width: 126px;
+  height: 92px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  transition: 0.3s;
+
+  margin-left: 20px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 35px;
+
+  color: #18333e;
+  transition: 0.3s;
+}
+
+.loc {
+  display: flex;
+  gap: 7px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #18333e;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.booking {
+  display: none;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.coast {
+  margin-right: 144px;
+
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 64px;
+
+  color: #18333e;
+  transition: 0.3s;
+}
+
+.button {
+  width: 175px;
+  height: 61px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+
+  color: #ffffff;
+  background: #18333e;
+  border-radius: 30.5px;
+  transition: 0.3s;
+}
+
+/* ======================================= */
+
+.card.active {
+  display: flex;
+  flex-direction: column;
+}
+
+.img.active {
+  margin-bottom: 1.5rem;
+
+  width: 395px;
+  height: 290px;
+}
+
+.info.active {
+  width: 395px;
+  margin-left: 0px;
+}
+
+.name.active {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+}
+
+.loc.active {
+}
+
+.booking.active {
+  display: flex;
+
+  margin-top: 20px;
+}
+
+.box {
+  content: "";
+  background-color: #e9f1fa;
+
+  width: 53px;
+  height: 53px;
+
+  border-radius: 50%;
+
+  position: relative;
+  transition: 0.3s;
+}
+
+.box-logo {
+  content: "";
+  background-color: #222e3b;
+
+  width: 24px;
+  height: 24px;
+
+  border-radius: 50%;
+
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+  transition: 0.3s;
+}
+
+.box-logo.active {
+  background-color: #e23636;
+}

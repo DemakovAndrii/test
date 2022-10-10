@@ -1,0 +1,43 @@
+.navbar {
+	width: 225px;
+	height: 975px;
+
+	padding-top: 50px;
+
+	background-color: #d6e7f5;
+}
+
+.element {
+	display: flex;
+	align-items: center;
+
+	margin-bottom: 26px;
+	padding-left: 15px;
+
+	height: 63px;
+	width: 200px;
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	cursor: pointer;
+	color: #18333E;
+}
+
+.element.active {
+	width: 200px;
+
+	background-color: #F9D44A;
+	border-radius: 0px 31.5px 31.5px 0px;
+}
+
+.element:nth-child(8) {
+	margin-bottom: 172px;
+}
+
+.element-logo {
+	display: flex;
+	padding-top: 5px;
+	margin-right: 15px;
+	margin-left: 35px;
+}

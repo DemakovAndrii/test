@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Dashboard",
+		"logo": "/assets/navbar/dashboard.svg"
+	},
+	{
+		"name": "Notes",
+		"logo": "/assets/navbar/notes.svg"
+	},
+	{
+		"name": "Theme",
+		"logo": "/assets/navbar/theme.svg"
+	},
+	{
+		"name": "Account",
+		"logo": "/assets/navbar/account.svg"
+	},
+	{
+		"name": "Expore",
+		"logo": "/assets/navbar/explore.svg"
+	},
+	{
+		"name": "Graph",
+		"logo": "/assets/navbar/graph.svg"
+	},
+	{
+		"name": "Messages",
+		"logo": "/assets/navbar/messages.svg"
+	},
+	{
+		"name": "Setting",
+		"logo": "/assets/navbar/setting.svg"
+	}
+]
