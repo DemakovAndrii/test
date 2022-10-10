@@ -16,8 +16,6 @@ export default function Pics() {
     return open === index;
   };
 
-  console.log(width);
-
   return (
     <motion.div className="flex">
       {pics.map(({ img, name, rate }, index) => {
